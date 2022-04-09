@@ -34,8 +34,7 @@ import json
 choice = input ("¿Desea usar el token de Webex codificado? (y/n) ")
 
 if ((choice.upper) == "N"):
-    accessToken = input ("ingrese el token:")
-    #todo: chequear parametros y /n
+    accessToken = input ("ingrese el token:") 
 else:
 	accessToken = "OWMxYTU5MGMtMTgwYS00Nzc1LWI3MDctZDFmMTQ4OWQ5NGJkMWY0YTViY2QtYzRm_P0A1_f71b3b0c-41aa-4432-a8ec-0fba0a4e36ad"
 
